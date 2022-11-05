@@ -32,3 +32,7 @@ django.contrib.staticfiles: 정적 파일 관리 프레임워크
 {% load static %} = 최상단  HTML에 박으센 
  <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}">
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+
+
+
+ linebreaksbr 필터를 사용하면 줄바꿈이 일어나는 곳에 <br> 테그를 추가해준다.
