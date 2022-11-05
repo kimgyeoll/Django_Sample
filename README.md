@@ -27,3 +27,8 @@ django.contrib.contenttypes: 컨텐트 타입 프레임워크
 django.contrib.sessions: 세션 프레임워크
 django.contrib.messages: 메세지 프레임워크
 django.contrib.staticfiles: 정적 파일 관리 프레임워크
+
+
+{% load static %} = 최상단  HTML에 박으센 
+ <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
