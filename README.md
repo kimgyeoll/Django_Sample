@@ -110,3 +110,7 @@ cat : 파일내용을 보여줌
 
 mv <바꿀filename> : filename을 바꿔준다
 : file을 directory로 이동시켜준다
+
+
+
+url - view - templates 구조 임 
